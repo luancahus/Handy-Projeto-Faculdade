@@ -1,0 +1,122 @@
+
+main{
+    padding-top: 70px;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(194, 152, 219);
+}
+
+main .conteudo{
+    margin-left: 100px;
+    margin-top: 45px;
+    margin-right: 50px;
+    padding-right: 25px;
+    
+}
+
+main .conteudo h1{
+  font-size: 65px;
+  margin-left: 130px;
+  margin-bottom: 25px;
+  
+}
+
+main .conteudo h4{
+ font-size:20px;
+ margin-bottom: 25px;
+ text-align: justify;
+ 
+}
+
+main .conteudo div .btnazul{
+  cursor: pointer;
+  width: 47%;
+  height: 50px;
+  background-color: rgb(50, 121, 228);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 4px 42px;
+  font-weight:bolder;
+  font-size: 17px;
+  font-family: 'Lora', serif;
+  
+  
+}
+
+main .conteudo div .btnazul:hover{
+  
+  background-color: white;
+  color: rgb(50, 121, 228);;
+}
+
+main .conteudo div .btnroxo{
+  cursor: pointer;
+  width: 47%;
+  height: 50px;
+  background-color: white;
+  color: rgb(103, 2, 143);
+  border: none;
+  border-radius: 7px;
+  padding: 4px 42px;
+  font-weight:bolder;
+  font-size: 17px;
+  margin-left: 20px;
+  font-family: 'Lora', serif;
+  
+}
+
+main .conteudo div .btnroxo:hover{
+  
+   background-color: rgb(103, 2, 143);
+   color: white;
+}
+
+footer{
+  display: flex;
+  background-color: rgb(194, 152, 219);
+  
+}
+
+footer .amarelo{
+  background-color: #FFEAA7;
+  width: 130px;
+  height: 60px;
+  margin-left: 45px;
+}
+
+footer .azul{
+  background-color: rgb(98, 160, 253); 
+  width: 70px;
+  height: 60px;
+  margin-left: 35px;
+}
+
+footer .laranja{
+  background-color: #FEA47F; 
+  width: 95px;
+  height: 60px;
+  margin-left: 35px;
+}
+
+footer .roxo{
+  background-color: #C56CF0; 
+  width: 40px;
+  height: 60px;
+  margin-left: 35px;
+}
+
+
+#tituloHandy{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+#fraseInicio{
+  font-family: 'Cormorant Upright', serif;
+
+  color: white;
+  font-size: 27px;
+  
+}
